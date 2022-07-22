@@ -1,0 +1,74 @@
+.ads-banner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 3em;
+    max-height: 35rem;
+    overflow: hidden;
+  }
+  
+  .banner-left {
+    grid-column: 1/7;
+    background-image: url("http://dev.lunetterie-pourquoipas.ca/themes/aeng101/img/aeng/l-bnnr3.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    padding: 5em;
+  }
+  
+  .banner-right {
+    grid-column: 7/13;
+    background-image: url("http://dev.lunetterie-pourquoipas.ca/themes/aeng101/img/r-bnnr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+  }
+  
+  .glass-morph {
+    max-height: 25rem;
+    min-height: 25rem;
+    background-color: #02acff26;
+    backdrop-filter: blur(3px);
+    position: relative;
+    bottom: 20px;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: -5px 6px 10px rgb(0 0 0 / 30%);
+  }
+  
+  .glass-morph h2 {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    padding-top: 20px;
+    font-family: cursive;
+    font-weight: 600;
+  }
+  
+  .glass-morph p {
+    margin: 5px 15px;
+    position: relative;
+    top: 30px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  
+  .glass-morph a {
+    position: relative;
+    top: 50px;
+    margin: 27%;
+    width: 50%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .glass-morph a:hover {
+    /* transform: rotateX(45deg); */
+    background: aliceblue;
+    color: black;
+    transition: all 1s ease;
+  }
